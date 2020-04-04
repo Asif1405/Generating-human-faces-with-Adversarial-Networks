@@ -15,5 +15,5 @@ We train the two networks concurrently:
 
 
 ### Requirements:
-python 3.x
-google colab
+- python 3.x, 
+- google colab
