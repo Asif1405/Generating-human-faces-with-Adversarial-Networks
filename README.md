@@ -9,9 +9,9 @@ It has two parts:
 D(x) is a prediction for real image and D(G(z)) is prediction for the face made by generator.
 
 We train the two networks concurrently:
-   -Train discriminator to better distinguish real data from current generator
-   -Train generator to make discriminator think generator is real
-   -Since discriminator is a differentiable neural network, we train both with gradient descent.
+- Train discriminator to better distinguish real data from current generator
+- Train generator to make discriminator think generator is real
+- Since discriminator is a differentiable neural network, we train both with gradient descent.
 
 
 ### Requirements:
